@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C80601F24A699AD00BD841E /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C80601E24A699AD00BD841E /* ButtonsView.swift */; };
+		4C80602024A699AD00BD841E /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C80601E24A699AD00BD841E /* ButtonsView.swift */; };
+		4CAF5CA324A69CDC00AF411E /* RoundRectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA224A69CDC00AF411E /* RoundRectangleButton.swift */; };
+		4CAF5CA424A69CDC00AF411E /* RoundRectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA224A69CDC00AF411E /* RoundRectangleButton.swift */; };
+		4CAF5CA724A69E6C00AF411E /* RectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA624A69E6C00AF411E /* RectangleButton.swift */; };
+		4CAF5CA824A69E6C00AF411E /* RectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA624A69E6C00AF411E /* RectangleButton.swift */; };
 		4CCCCA3324A68DCA00593F22 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCA3224A68DCA00593F22 /* Tests_iOS.swift */; };
 		4CCCCA3E24A68DCA00593F22 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCA3D24A68DCA00593F22 /* Tests_macOS.swift */; };
 		4CCCCA4024A68DCA00593F22 /* SwiftUISandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1724A68DCA00593F22 /* SwiftUISandboxApp.swift */; };
@@ -15,8 +21,6 @@
 		4CCCCA4324A68DCA00593F22 /* RootSandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1824A68DCA00593F22 /* RootSandboxView.swift */; };
 		4CCCCA4424A68DCA00593F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1924A68DCA00593F22 /* Assets.xcassets */; };
 		4CCCCA4524A68DCA00593F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1924A68DCA00593F22 /* Assets.xcassets */; };
-		4CF3FFD824A68EA700B16079 /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFD724A68EA700B16079 /* FullScreenView.swift */; };
-		4CF3FFD924A68EA700B16079 /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFD724A68EA700B16079 /* FullScreenView.swift */; };
 		4CF3FFDF24A692BF00B16079 /* MediumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDD24A692BF00B16079 /* MediumCell.swift */; };
 		4CF3FFE024A692BF00B16079 /* MediumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDD24A692BF00B16079 /* MediumCell.swift */; };
 		4CF3FFE124A692BF00B16079 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDE24A692BF00B16079 /* HeroCell.swift */; };
@@ -43,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C80601E24A699AD00BD841E /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		4CAF5CA224A69CDC00AF411E /* RoundRectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectangleButton.swift; sourceTree = "<group>"; };
+		4CAF5CA624A69E6C00AF411E /* RectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButton.swift; sourceTree = "<group>"; };
 		4CCCCA1724A68DCA00593F22 /* SwiftUISandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISandboxApp.swift; sourceTree = "<group>"; };
 		4CCCCA1824A68DCA00593F22 /* RootSandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSandboxView.swift; sourceTree = "<group>"; };
 		4CCCCA1924A68DCA00593F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +64,6 @@
 		4CCCCA3924A68DCA00593F22 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCCCA3D24A68DCA00593F22 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		4CCCCA3F24A68DCA00593F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CF3FFD724A68EA700B16079 /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
 		4CF3FFDD24A692BF00B16079 /* MediumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumCell.swift; sourceTree = "<group>"; };
 		4CF3FFDE24A692BF00B16079 /* HeroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
 		4CF3FFE324A692D100B16079 /* ImageViewerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerView.swift; sourceTree = "<group>"; };
@@ -95,6 +101,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C80602124A69A1900BD841E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4CAF5CA524A69E5A00AF411E /* Button Styles */,
+				4C80601E24A699AD00BD841E /* ButtonsView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		4CAF5CA524A69E5A00AF411E /* Button Styles */ = {
+			isa = PBXGroup;
+			children = (
+				4CAF5CA224A69CDC00AF411E /* RoundRectangleButton.swift */,
+				4CAF5CA624A69E6C00AF411E /* RectangleButton.swift */,
+			);
+			path = "Button Styles";
+			sourceTree = "<group>";
+		};
 		4CCCCA1124A68DC900593F22 = {
 			isa = PBXGroup;
 			children = (
@@ -110,10 +134,10 @@
 		4CCCCA1624A68DCA00593F22 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4C80602124A69A1900BD841E /* Buttons */,
 				4CF3FFDB24A6928900B16079 /* ImageViewer */,
 				4CF3FFDA24A6922F00B16079 /* Supporting Files */,
 				4CCCCA1824A68DCA00593F22 /* RootSandboxView.swift */,
-				4CF3FFD724A68EA700B16079 /* FullScreenView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -349,11 +373,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF3FFE124A692BF00B16079 /* HeroCell.swift in Sources */,
+				4CAF5CA724A69E6C00AF411E /* RectangleButton.swift in Sources */,
 				4CF3FFDF24A692BF00B16079 /* MediumCell.swift in Sources */,
 				4CF3FFE424A692D100B16079 /* ImageViewerView.swift in Sources */,
 				4CCCCA4224A68DCA00593F22 /* RootSandboxView.swift in Sources */,
+				4CAF5CA324A69CDC00AF411E /* RoundRectangleButton.swift in Sources */,
+				4C80601F24A699AD00BD841E /* ButtonsView.swift in Sources */,
 				4CCCCA4024A68DCA00593F22 /* SwiftUISandboxApp.swift in Sources */,
-				4CF3FFD824A68EA700B16079 /* FullScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,11 +388,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF3FFE224A692BF00B16079 /* HeroCell.swift in Sources */,
+				4CAF5CA824A69E6C00AF411E /* RectangleButton.swift in Sources */,
 				4CF3FFE024A692BF00B16079 /* MediumCell.swift in Sources */,
 				4CF3FFE524A692D100B16079 /* ImageViewerView.swift in Sources */,
 				4CCCCA4324A68DCA00593F22 /* RootSandboxView.swift in Sources */,
+				4CAF5CA424A69CDC00AF411E /* RoundRectangleButton.swift in Sources */,
+				4C80602024A699AD00BD841E /* ButtonsView.swift in Sources */,
 				4CCCCA4124A68DCA00593F22 /* SwiftUISandboxApp.swift in Sources */,
-				4CF3FFD924A68EA700B16079 /* FullScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

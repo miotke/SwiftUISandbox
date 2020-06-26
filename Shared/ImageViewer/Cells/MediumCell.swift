@@ -19,12 +19,10 @@ struct MediumCell: View {
             
             HStack {
                 Text("Gus")
-//                    .font(.subheadline)
                     .foregroundColor(.white)
                 
                 ForEach(0..<starCount) { star in
                     Image(systemName: "star.fill")
-//                        .font(.subheadline)
                         .foregroundColor(.yellow)
                 }
             }

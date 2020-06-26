@@ -10,8 +10,18 @@ import SwiftUI
 struct RootSandboxView: View {
     var body: some View {
         NavigationView {
-            List {
-                NavigationLink("Image Viewer", destination: ImageViewerView())
+            VStack {
+                
+                List {
+                    Section(header: Text("Navigation Links")) {
+                        NavigationLink("Image Viewer", destination: ImageViewerView())
+                    }
+                    
+                    Section(header: Text("Buttons")) {
+                        NavigationLink("Buttons", destination: ButtonsView())
+                    }
+                    
+                }
             }
             .navigationTitle("SwiftUI Sandbox")
         }
