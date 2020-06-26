@@ -20,7 +20,6 @@ struct RootSandboxView: View {
                     Section(header: Text("Buttons")) {
                         NavigationLink("Buttons", destination: ButtonsView())
                     }
-                    
                 }
             }
             .navigationTitle("SwiftUI Sandbox")

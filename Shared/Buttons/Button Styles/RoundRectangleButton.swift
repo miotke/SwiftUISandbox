@@ -25,8 +25,11 @@ struct RoundRectangleButton: View {
     }
 }
 
-//struct RoundRectangleButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//        RoundRectangleButton()
-//    }
-//}
+struct RoundRectangleButton_Previews: PreviewProvider {
+    
+    @State static var fileName: String = "rounded"
+    
+    static var previews: some View {
+        RoundRectangleButton(fileName: $fileName)
+    }
+}

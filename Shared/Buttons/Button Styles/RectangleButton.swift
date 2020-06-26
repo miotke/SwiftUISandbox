@@ -23,8 +23,11 @@ struct RectangleButton: View {
     }
 }
 
-//struct RectangleButton_Previews: PreviewProvider {
-//    static var previews: some View {
-//        RectangleButton(fileName: "RectangleButton.swift")
-//    }
-//}
+struct RectangleButton_Previews: PreviewProvider {
+    
+    @State static var fileName: String = "RectangleButton.swift"
+    
+    static var previews: some View {
+        RectangleButton(fileName: $fileName)
+    }
+}
