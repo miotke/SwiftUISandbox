@@ -12,7 +12,6 @@ struct ImageAnimationView: View {
         ZStack {
             Image("flowers")
                 .resizable()
-                
                 .aspectRatio(contentMode: .fit)
         }
         .navigationTitle("Image Animation")

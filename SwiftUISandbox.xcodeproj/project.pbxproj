@@ -13,6 +13,7 @@
 		4C3530E724A7BAAF00F6D46F /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3530E524A7BAAF00F6D46F /* CircularButton.swift */; };
 		4C80601F24A699AD00BD841E /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C80601E24A699AD00BD841E /* ButtonsView.swift */; };
 		4C80602024A699AD00BD841E /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C80601E24A699AD00BD841E /* ButtonsView.swift */; };
+		4C8EA06624A7FCF100B8B791 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8EA06524A7FCF100B8B791 /* BarChartView.swift */; };
 		4CAF5CA324A69CDC00AF411E /* RoundRectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA224A69CDC00AF411E /* RoundRectangleButton.swift */; };
 		4CAF5CA424A69CDC00AF411E /* RoundRectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA224A69CDC00AF411E /* RoundRectangleButton.swift */; };
 		4CAF5CA724A69E6C00AF411E /* RectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA624A69E6C00AF411E /* RectangleButton.swift */; };
@@ -26,6 +27,8 @@
 		4CCCCA4424A68DCA00593F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1924A68DCA00593F22 /* Assets.xcassets */; };
 		4CCCCA4524A68DCA00593F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1924A68DCA00593F22 /* Assets.xcassets */; };
 		4CCE60BE24A7C28100DF2C2E /* ImageAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE60BD24A7C28100DF2C2E /* ImageAnimationView.swift */; };
+		4CD0D7D824A80241001BBE17 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0D7D724A80241001BBE17 /* DatePickerView.swift */; };
+		4CD0D7DA24A80747001BBE17 /* GraphicalDataPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0D7D924A80747001BBE17 /* GraphicalDataPickerView.swift */; };
 		4CF3FFDF24A692BF00B16079 /* MediumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDD24A692BF00B16079 /* MediumCell.swift */; };
 		4CF3FFE024A692BF00B16079 /* MediumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDD24A692BF00B16079 /* MediumCell.swift */; };
 		4CF3FFE124A692BF00B16079 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDE24A692BF00B16079 /* HeroCell.swift */; };
@@ -55,6 +58,7 @@
 		4C3530E224A7B95600F6D46F /* ButtonWithSFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithSFSymbol.swift; sourceTree = "<group>"; };
 		4C3530E524A7BAAF00F6D46F /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		4C80601E24A699AD00BD841E /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		4C8EA06524A7FCF100B8B791 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		4CAF5CA224A69CDC00AF411E /* RoundRectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectangleButton.swift; sourceTree = "<group>"; };
 		4CAF5CA624A69E6C00AF411E /* RectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButton.swift; sourceTree = "<group>"; };
 		4CCCCA1724A68DCA00593F22 /* SwiftUISandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISandboxApp.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 		4CCCCA3D24A68DCA00593F22 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		4CCCCA3F24A68DCA00593F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCE60BD24A7C28100DF2C2E /* ImageAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnimationView.swift; sourceTree = "<group>"; };
+		4CD0D7D724A80241001BBE17 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		4CD0D7D924A80747001BBE17 /* GraphicalDataPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicalDataPickerView.swift; sourceTree = "<group>"; };
 		4CF3FFDD24A692BF00B16079 /* MediumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumCell.swift; sourceTree = "<group>"; };
 		4CF3FFDE24A692BF00B16079 /* HeroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
 		4CF3FFE324A692D100B16079 /* ImageViewerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerView.swift; sourceTree = "<group>"; };
@@ -118,6 +124,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		4C8EA06424A7FCD500B8B791 /* Progress Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C8EA06524A7FCF100B8B791 /* BarChartView.swift */,
+			);
+			path = "Progress Views";
+			sourceTree = "<group>";
+		};
 		4CAF5CA524A69E5A00AF411E /* Button Styles */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +158,8 @@
 		4CCCCA1624A68DCA00593F22 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4CD0D7D624A80226001BBE17 /* Pickers */,
+				4C8EA06424A7FCD500B8B791 /* Progress Views */,
 				4CCE60BB24A7C26B00DF2C2E /* Images */,
 				4C80602124A69A1900BD841E /* Buttons */,
 				4CF3FFDB24A6928900B16079 /* ImageViewer */,
@@ -213,6 +229,15 @@
 				4CCE60BD24A7C28100DF2C2E /* ImageAnimationView.swift */,
 			);
 			path = "Image Animation";
+			sourceTree = "<group>";
+		};
+		4CD0D7D624A80226001BBE17 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				4CD0D7D724A80241001BBE17 /* DatePickerView.swift */,
+				4CD0D7D924A80747001BBE17 /* GraphicalDataPickerView.swift */,
+			);
+			path = Pickers;
 			sourceTree = "<group>";
 		};
 		4CF3FFDA24A6922F00B16079 /* Supporting Files */ = {
@@ -400,13 +425,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF3FFE124A692BF00B16079 /* HeroCell.swift in Sources */,
+				4CD0D7DA24A80747001BBE17 /* GraphicalDataPickerView.swift in Sources */,
 				4CAF5CA724A69E6C00AF411E /* RectangleButton.swift in Sources */,
 				4C3530E324A7B95600F6D46F /* ButtonWithSFSymbol.swift in Sources */,
 				4CF3FFDF24A692BF00B16079 /* MediumCell.swift in Sources */,
 				4C3530E624A7BAAF00F6D46F /* CircularButton.swift in Sources */,
+				4C8EA06624A7FCF100B8B791 /* BarChartView.swift in Sources */,
 				4CF3FFE424A692D100B16079 /* ImageViewerView.swift in Sources */,
 				4CCCCA4224A68DCA00593F22 /* RootSandboxView.swift in Sources */,
 				4CCE60BE24A7C28100DF2C2E /* ImageAnimationView.swift in Sources */,
+				4CD0D7D824A80241001BBE17 /* DatePickerView.swift in Sources */,
 				4CAF5CA324A69CDC00AF411E /* RoundRectangleButton.swift in Sources */,
 				4C80601F24A699AD00BD841E /* ButtonsView.swift in Sources */,
 				4CCCCA4024A68DCA00593F22 /* SwiftUISandboxApp.swift in Sources */,
