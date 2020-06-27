@@ -15,11 +15,13 @@ struct RootSandboxView: View {
                 List {
                     Section(header: Text("Images")) {
                         NavigationLink("Image Viewer", destination: ImageViewerView())
+                        NavigationLink("Image Animation", destination: ImageAnimationView())
                     }
                     
                     Section(header: Text("Buttons")) {
                         NavigationLink("Buttons", destination: ButtonsView())
                     }
+                    
                 }
             }
             .navigationTitle("SwiftUI Sandbox")

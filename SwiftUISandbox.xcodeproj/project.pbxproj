@@ -25,6 +25,7 @@
 		4CCCCA4324A68DCA00593F22 /* RootSandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1824A68DCA00593F22 /* RootSandboxView.swift */; };
 		4CCCCA4424A68DCA00593F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1924A68DCA00593F22 /* Assets.xcassets */; };
 		4CCCCA4524A68DCA00593F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1924A68DCA00593F22 /* Assets.xcassets */; };
+		4CCE60BE24A7C28100DF2C2E /* ImageAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE60BD24A7C28100DF2C2E /* ImageAnimationView.swift */; };
 		4CF3FFDF24A692BF00B16079 /* MediumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDD24A692BF00B16079 /* MediumCell.swift */; };
 		4CF3FFE024A692BF00B16079 /* MediumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDD24A692BF00B16079 /* MediumCell.swift */; };
 		4CF3FFE124A692BF00B16079 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDE24A692BF00B16079 /* HeroCell.swift */; };
@@ -70,6 +71,7 @@
 		4CCCCA3924A68DCA00593F22 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCCCA3D24A68DCA00593F22 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		4CCCCA3F24A68DCA00593F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCE60BD24A7C28100DF2C2E /* ImageAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnimationView.swift; sourceTree = "<group>"; };
 		4CF3FFDD24A692BF00B16079 /* MediumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumCell.swift; sourceTree = "<group>"; };
 		4CF3FFDE24A692BF00B16079 /* HeroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
 		4CF3FFE324A692D100B16079 /* ImageViewerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		4CCCCA1624A68DCA00593F22 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4CCE60BB24A7C26B00DF2C2E /* Images */,
 				4C80602124A69A1900BD841E /* Buttons */,
 				4CF3FFDB24A6928900B16079 /* ImageViewer */,
 				4CF3FFDA24A6922F00B16079 /* Supporting Files */,
@@ -194,6 +197,22 @@
 				4CCCCA3F24A68DCA00593F22 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		4CCE60BB24A7C26B00DF2C2E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE60BC24A7C27200DF2C2E /* Image Animation */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4CCE60BC24A7C27200DF2C2E /* Image Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE60BD24A7C28100DF2C2E /* ImageAnimationView.swift */,
+			);
+			path = "Image Animation";
 			sourceTree = "<group>";
 		};
 		4CF3FFDA24A6922F00B16079 /* Supporting Files */ = {
@@ -387,6 +406,7 @@
 				4C3530E624A7BAAF00F6D46F /* CircularButton.swift in Sources */,
 				4CF3FFE424A692D100B16079 /* ImageViewerView.swift in Sources */,
 				4CCCCA4224A68DCA00593F22 /* RootSandboxView.swift in Sources */,
+				4CCE60BE24A7C28100DF2C2E /* ImageAnimationView.swift in Sources */,
 				4CAF5CA324A69CDC00AF411E /* RoundRectangleButton.swift in Sources */,
 				4C80601F24A699AD00BD841E /* ButtonsView.swift in Sources */,
 				4CCCCA4024A68DCA00593F22 /* SwiftUISandboxApp.swift in Sources */,
