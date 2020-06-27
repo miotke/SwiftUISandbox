@@ -13,7 +13,7 @@ struct RootSandboxView: View {
             VStack {
                 
                 List {
-                    Section(header: Text("Navigation Links")) {
+                    Section(header: Text("Images")) {
                         NavigationLink("Image Viewer", destination: ImageViewerView())
                     }
                     

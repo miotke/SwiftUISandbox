@@ -20,6 +20,12 @@ struct ButtonsView: View {
                     
                     RoundRectangleButton(fileName: $fileName)
                         .padding(.bottom, 5)
+                    
+                    ButtonWithSFSymbol(fileName: $fileName)
+                        .padding(.bottom, 5)
+                    
+                    CircularButton(fileName: $fileName)
+                        .padding(.bottom, 5)
                 }
             }
             

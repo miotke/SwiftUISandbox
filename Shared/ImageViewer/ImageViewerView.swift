@@ -25,6 +25,7 @@ struct ImageViewerView: View {
                     MediumCell()
                 }
             }
+            
             HeroCell()
             
         }
