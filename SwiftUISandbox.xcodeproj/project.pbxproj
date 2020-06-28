@@ -18,6 +18,9 @@
 		4CAF5CA424A69CDC00AF411E /* RoundRectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA224A69CDC00AF411E /* RoundRectangleButton.swift */; };
 		4CAF5CA724A69E6C00AF411E /* RectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA624A69E6C00AF411E /* RectangleButton.swift */; };
 		4CAF5CA824A69E6C00AF411E /* RectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF5CA624A69E6C00AF411E /* RectangleButton.swift */; };
+		4CC00B2624A83B9A00FF6C25 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC00B2524A83B9A00FF6C25 /* HeaderView.swift */; };
+		4CC00B2924A8449900FF6C25 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC00B2824A8449900FF6C25 /* ImageScrollView.swift */; };
+		4CC00B2C24A8454C00FF6C25 /* OrderTicketButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC00B2B24A8454C00FF6C25 /* OrderTicketButton.swift */; };
 		4CCCCA3324A68DCA00593F22 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCA3224A68DCA00593F22 /* Tests_iOS.swift */; };
 		4CCCCA3E24A68DCA00593F22 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCA3D24A68DCA00593F22 /* Tests_macOS.swift */; };
 		4CCCCA4024A68DCA00593F22 /* SwiftUISandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCA1724A68DCA00593F22 /* SwiftUISandboxApp.swift */; };
@@ -29,6 +32,7 @@
 		4CCE60BE24A7C28100DF2C2E /* ImageAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE60BD24A7C28100DF2C2E /* ImageAnimationView.swift */; };
 		4CD0D7D824A80241001BBE17 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0D7D724A80241001BBE17 /* DatePickerView.swift */; };
 		4CD0D7DA24A80747001BBE17 /* GraphicalDataPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0D7D924A80747001BBE17 /* GraphicalDataPickerView.swift */; };
+		4CD0D7DD24A83815001BBE17 /* TransportationTicketOrderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0D7DC24A83815001BBE17 /* TransportationTicketOrderingView.swift */; };
 		4CF3FFDF24A692BF00B16079 /* MediumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDD24A692BF00B16079 /* MediumCell.swift */; };
 		4CF3FFE024A692BF00B16079 /* MediumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDD24A692BF00B16079 /* MediumCell.swift */; };
 		4CF3FFE124A692BF00B16079 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3FFDE24A692BF00B16079 /* HeroCell.swift */; };
@@ -61,6 +65,9 @@
 		4C8EA06524A7FCF100B8B791 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		4CAF5CA224A69CDC00AF411E /* RoundRectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectangleButton.swift; sourceTree = "<group>"; };
 		4CAF5CA624A69E6C00AF411E /* RectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButton.swift; sourceTree = "<group>"; };
+		4CC00B2524A83B9A00FF6C25 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4CC00B2824A8449900FF6C25 /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		4CC00B2B24A8454C00FF6C25 /* OrderTicketButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTicketButton.swift; sourceTree = "<group>"; };
 		4CCCCA1724A68DCA00593F22 /* SwiftUISandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISandboxApp.swift; sourceTree = "<group>"; };
 		4CCCCA1824A68DCA00593F22 /* RootSandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSandboxView.swift; sourceTree = "<group>"; };
 		4CCCCA1924A68DCA00593F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +85,7 @@
 		4CCE60BD24A7C28100DF2C2E /* ImageAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnimationView.swift; sourceTree = "<group>"; };
 		4CD0D7D724A80241001BBE17 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		4CD0D7D924A80747001BBE17 /* GraphicalDataPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicalDataPickerView.swift; sourceTree = "<group>"; };
+		4CD0D7DC24A83815001BBE17 /* TransportationTicketOrderingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationTicketOrderingView.swift; sourceTree = "<group>"; };
 		4CF3FFDD24A692BF00B16079 /* MediumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumCell.swift; sourceTree = "<group>"; };
 		4CF3FFDE24A692BF00B16079 /* HeroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
 		4CF3FFE324A692D100B16079 /* ImageViewerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerView.swift; sourceTree = "<group>"; };
@@ -143,6 +151,30 @@
 			path = "Button Styles";
 			sourceTree = "<group>";
 		};
+		4CC00B2424A83B7900FF6C25 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				4CC00B2524A83B9A00FF6C25 /* HeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		4CC00B2724A8448000FF6C25 /* Middle Image Section */ = {
+			isa = PBXGroup;
+			children = (
+				4CC00B2824A8449900FF6C25 /* ImageScrollView.swift */,
+			);
+			path = "Middle Image Section";
+			sourceTree = "<group>";
+		};
+		4CC00B2A24A8453400FF6C25 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				4CC00B2B24A8454C00FF6C25 /* OrderTicketButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		4CCCCA1124A68DC900593F22 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +190,7 @@
 		4CCCCA1624A68DCA00593F22 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4CD0D7DB24A837F4001BBE17 /* Full UI */,
 				4CD0D7D624A80226001BBE17 /* Pickers */,
 				4C8EA06424A7FCD500B8B791 /* Progress Views */,
 				4CCE60BB24A7C26B00DF2C2E /* Images */,
@@ -238,6 +271,25 @@
 				4CD0D7D924A80747001BBE17 /* GraphicalDataPickerView.swift */,
 			);
 			path = Pickers;
+			sourceTree = "<group>";
+		};
+		4CD0D7DB24A837F4001BBE17 /* Full UI */ = {
+			isa = PBXGroup;
+			children = (
+				4CD0D7DE24A8381B001BBE17 /* Transportation Ticket View */,
+			);
+			path = "Full UI";
+			sourceTree = "<group>";
+		};
+		4CD0D7DE24A8381B001BBE17 /* Transportation Ticket View */ = {
+			isa = PBXGroup;
+			children = (
+				4CC00B2A24A8453400FF6C25 /* Button */,
+				4CC00B2724A8448000FF6C25 /* Middle Image Section */,
+				4CC00B2424A83B7900FF6C25 /* Header */,
+				4CD0D7DC24A83815001BBE17 /* TransportationTicketOrderingView.swift */,
+			);
+			path = "Transportation Ticket View";
 			sourceTree = "<group>";
 		};
 		4CF3FFDA24A6922F00B16079 /* Supporting Files */ = {
@@ -427,17 +479,21 @@
 				4CF3FFE124A692BF00B16079 /* HeroCell.swift in Sources */,
 				4CD0D7DA24A80747001BBE17 /* GraphicalDataPickerView.swift in Sources */,
 				4CAF5CA724A69E6C00AF411E /* RectangleButton.swift in Sources */,
+				4CD0D7DD24A83815001BBE17 /* TransportationTicketOrderingView.swift in Sources */,
 				4C3530E324A7B95600F6D46F /* ButtonWithSFSymbol.swift in Sources */,
 				4CF3FFDF24A692BF00B16079 /* MediumCell.swift in Sources */,
 				4C3530E624A7BAAF00F6D46F /* CircularButton.swift in Sources */,
 				4C8EA06624A7FCF100B8B791 /* BarChartView.swift in Sources */,
 				4CF3FFE424A692D100B16079 /* ImageViewerView.swift in Sources */,
 				4CCCCA4224A68DCA00593F22 /* RootSandboxView.swift in Sources */,
+				4CC00B2924A8449900FF6C25 /* ImageScrollView.swift in Sources */,
 				4CCE60BE24A7C28100DF2C2E /* ImageAnimationView.swift in Sources */,
+				4CC00B2C24A8454C00FF6C25 /* OrderTicketButton.swift in Sources */,
 				4CD0D7D824A80241001BBE17 /* DatePickerView.swift in Sources */,
 				4CAF5CA324A69CDC00AF411E /* RoundRectangleButton.swift in Sources */,
 				4C80601F24A699AD00BD841E /* ButtonsView.swift in Sources */,
 				4CCCCA4024A68DCA00593F22 /* SwiftUISandboxApp.swift in Sources */,
+				4CC00B2624A83B9A00FF6C25 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

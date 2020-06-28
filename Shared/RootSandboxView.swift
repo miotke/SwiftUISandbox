@@ -30,6 +30,11 @@ struct RootSandboxView: View {
                         NavigationLink("Date Picker", destination: DatePickerView())
                         NavigationLink("Graphical Date Picker", destination: GraphicalDataPickerView())
                     }
+                    
+                    Section(header: Text("Full UI")) {
+                        NavigationLink("Transportation Ticket Ordering", destination: TransportationTicketOrderingView())
+                        
+                    }
                 }
             }
             .navigationTitle("SwiftUI Sandbox")
