@@ -24,8 +24,6 @@ struct OrderTicketButton: View {
         }
         .alert(isPresented: $showingAlert) {
             Alert(title: Text("Ticket ordered"), message: Text("Sorry, this is not a real ticket 😐"), primaryButton: .default(Text("Ok")), secondaryButton: .destructive(Text("Cancel")))
-//            Alert(title: Text("Important message"), message: Text("Wear sunscreen"), dismissButton: .default(Text("Got it!")))
-
         }
         .frame(width: 300)
         .padding(20)
