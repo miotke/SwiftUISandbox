@@ -33,7 +33,7 @@ struct RootSandboxView: View {
                     
                     Section(header: Text("Full UI")) {
                         NavigationLink("Transportation Ticket Ordering", destination: TransportationTicketOrderingView())
-                        
+                        NavigationLink("Bill paying", destination: BillPayView())
                     }
                 }
             }

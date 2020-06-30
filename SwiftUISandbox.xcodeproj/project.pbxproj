@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C27EA8824ABFDC300AD31AC /* BillPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27EA8724ABFDC300AD31AC /* BillPayView.swift */; };
 		4C3530E324A7B95600F6D46F /* ButtonWithSFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3530E224A7B95600F6D46F /* ButtonWithSFSymbol.swift */; };
 		4C3530E424A7B95600F6D46F /* ButtonWithSFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3530E224A7B95600F6D46F /* ButtonWithSFSymbol.swift */; };
 		4C3530E624A7BAAF00F6D46F /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3530E524A7BAAF00F6D46F /* CircularButton.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C27EA8724ABFDC300AD31AC /* BillPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPayView.swift; sourceTree = "<group>"; };
 		4C3530E224A7B95600F6D46F /* ButtonWithSFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithSFSymbol.swift; sourceTree = "<group>"; };
 		4C3530E524A7BAAF00F6D46F /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		4C80601E24A699AD00BD841E /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C27EA8324ABFC0F00AD31AC /* Bill pay */ = {
+			isa = PBXGroup;
+			children = (
+				4C27EA8724ABFDC300AD31AC /* BillPayView.swift */,
+			);
+			path = "Bill pay";
+			sourceTree = "<group>";
+		};
 		4C80602124A69A1900BD841E /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +286,7 @@
 		4CD0D7DB24A837F4001BBE17 /* Full UI */ = {
 			isa = PBXGroup;
 			children = (
+				4C27EA8324ABFC0F00AD31AC /* Bill pay */,
 				4CD0D7DE24A8381B001BBE17 /* Transportation Ticket View */,
 			);
 			path = "Full UI";
@@ -485,6 +496,7 @@
 				4C3530E624A7BAAF00F6D46F /* CircularButton.swift in Sources */,
 				4C8EA06624A7FCF100B8B791 /* BarChartView.swift in Sources */,
 				4CF3FFE424A692D100B16079 /* ImageViewerView.swift in Sources */,
+				4C27EA8824ABFDC300AD31AC /* BillPayView.swift in Sources */,
 				4CCCCA4224A68DCA00593F22 /* RootSandboxView.swift in Sources */,
 				4CC00B2924A8449900FF6C25 /* ImageScrollView.swift in Sources */,
 				4CCE60BE24A7C28100DF2C2E /* ImageAnimationView.swift in Sources */,
